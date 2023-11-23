@@ -23,7 +23,7 @@ body {
     border-radius: 60px;
 }
 
-.calculator_screen {
+.calculator-display {
     width: 90%;
     height: 10%;
     background-color: var(--background-color);

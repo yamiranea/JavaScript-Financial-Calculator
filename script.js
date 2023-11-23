@@ -1,3 +1,4 @@
+let display = 0;
 let num0 = 0;
 let num1 = 1;
 let num2 = 2;
@@ -9,6 +10,7 @@ let num7 = 7;
 let num8 = 8;
 let num9 = 9;
 
+document.getElementById("display").textContent = display;
 document.getElementById("key-reset").textContent = reset;
 document.getElementById("key-0").textContent = num0;
 document.getElementById("key-1").textContent = num1;
@@ -21,3 +23,6 @@ document.getElementById("key-7").textContent = num7;
 document.getElementById("key-8").textContent = num8;
 document.getElementById("key-9").textContent = num9;
 
+function key1() {
+    display
+}
