@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    width: 50%;
+    height: 600px;
+}
+
+.calculator_screen {
+    width: 90%;
+    height: 10%;
+    background-color: red;
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+}
+
+.calculator-buttons {
+    display: grid;
+}
