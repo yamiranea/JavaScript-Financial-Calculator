@@ -51,8 +51,8 @@ body {
 @media only screen and (min-width: 600px) {
 
     .calculator {
-        height: 641px;
-        width: 90%;
+        margin-top: 2%;
+        height: auto;
     }
 
     .calculator-buttons {
@@ -70,6 +70,38 @@ body {
     button.number-keys#key-0 {
         width: 180px;
         }
+}
+
+@media only screen and (min-width: 1000px) {
+    .calculator {
+
+    }
+
+    .calculator-display {
+        font-size: 94px;
+        margin-top: 66px;
+    }
+
+    .calculator-buttons {
+        width: 100%;
+        height: 100%;
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+    }
+
+    .calculator-buttons button {
+    width: 100px;
+    height: 100px;
+    margin-right: 19px;
+    margin-top: 19px;
+    }
+
+    button.number-keys#key-0 {
+    width: 234px;
+    margin-right: 19px;
+    border-radius: 50px;
+    }
 }
 
 button { 
