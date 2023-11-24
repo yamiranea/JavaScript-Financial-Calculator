@@ -24,3 +24,8 @@ for (i = 0; i <= 9; i++) {
     updateDisplay();
   });
 }
+
+document.getElementById("key-decimal").addEventListener("click", function () {
+  display += ".";
+  updateDisplay();
+});
