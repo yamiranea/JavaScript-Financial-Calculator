@@ -12,3 +12,15 @@ function resetDisplay() {
 }
 
 updateDisplay();
+
+for (i = 0; i <= 9; i++) {
+  const value = i.toString();
+  document.getElementById(`key-${i}`).addEventListener("click", function () {
+    if (display === "0") {
+      display = value;
+    } else {
+      display += value;
+    }
+    updateDisplay();
+  });
+}
