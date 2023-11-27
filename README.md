@@ -34,6 +34,6 @@ Third #FemCoders bootcamp individual project.
 <li>Open the index.html document in the web browser.</li>
 </ol>
 
-<a href="https://p3-financial-calculator.netlify.app/"><h4>🖖 Try the site alive HERE in Netflify pages 🖖</h4></a>
+**🖖 Try the site alive HERE**  [in Netflify pages ](https://p3-financial-calculator.netlify.app/)🖖
 
 ---
